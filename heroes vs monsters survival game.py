@@ -71,7 +71,7 @@ class heroes:
                    print(f"{enemy.name} attacked using {enemy.attack_Move}")
                    self.HP = self.HP - enemy.damage
                 else:
-                    enemy.HP = enemy.HP + self.defense
+                    enemy.HP = enemy.HP + enemy.defense
 
             if self.HP <= 0:
                 print(" you have died")
